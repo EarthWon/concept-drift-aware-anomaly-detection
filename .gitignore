@@ -1,0 +1,13 @@
+# Only the requested experiment directories and Git configuration are published.
+/*
+!/.gitignore
+!/.gitattributes
+!/cd_aware_ad/
+!/data/
+!/finetuning/
+!/inference/
+
+/finetuning/weights/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
